@@ -1,0 +1,536 @@
+#mainContainer{
+  background-color: #040303;
+  font-family: 'Abel', sans-serif;
+  color: #FFFAFB;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  font-size: .8em;
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  z-index: 300;
+}
+
+#logoBox #apLogo{
+  margin-bottom: 5px;
+}
+
+#headerNav{
+  font-size: 2em;
+  margin-right: 30px;
+  display: inline;
+  float: right;
+}
+
+.headerLink{
+  margin-right: 20px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.headerLink:hover{
+  color: #85c93f;
+  cursor: pointer;
+}
+
+.fullSection{
+  min-height: 100vh;
+  background-color: #131515;
+}
+
+#aboveTheFold{
+  position: relative;
+  background: url(img/aboveFold.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+}
+
+#sloganContainer{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#sloganContainer img{
+  margin: auto;
+  display: block;
+}
+
+#goingDown{
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  border: 3px solid #85c93f;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#goingDown p{
+  color: #85c93f;
+  text-align: center;
+  font-size: 3em;
+  margin-top: 20px;
+}
+
+#mainContainer #services{
+  position: relative;
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(125,185,232,1) 0%,rgba(30,87,153,1) 100%);
+}
+
+#servicesContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  margin: 0 auto;
+}
+
+#serviceMenu > h2:first-child{
+  font-size: 1.5em;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid white;
+}
+
+#serviceMenu ul{
+  position: relative;
+}
+
+.serviceButton{
+  font-size: 2em;
+  padding: 5px;
+  display: inline-block;
+  transition: background-color .3s;
+  cursor: pointer;
+}
+
+.serviceButton:hover{
+  background-color: #40428a;
+}
+
+.serviceTitle{
+  font-size: 3em;
+  padding: 5px;
+  background-color: #40428a;
+}
+
+.serviceArticle{
+  position: absolute;
+  transform: translateY(-50%);
+  left: calc(50% + 10px);
+  top: 50%;
+  width: calc(50% - 60px);
+  display: block;
+}
+
+.serviceArticle p{
+  font-family: 'Dosis';
+  font-size: 1.3em;
+  line-height: 1.5;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid white;
+}
+
+.serviceArticle ul{
+  display: inline-block;
+  width: 32%;
+  padding-top: 25px;
+  line-height: 1.5;
+  font-size: 1.3em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.fullSection h1{
+  padding-top: 25px;
+  font-size: 3em;
+  text-align: center;
+  letter-spacing: 10px;
+  color: white;
+  transition: letter-spacing 1s ease;
+}
+
+#mainContainer #about{
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(20,33,23,1) 0%,rgba(19,21,21,1) 100%);
+}
+
+#about #profileBox{
+
+
+  overflow: hidden;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 15vh;
+  padding-bottom: 50px;
+}
+
+#history{
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 70%;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.3;
+}
+
+#reviewList li{
+  opacity: 0;
+  position: absolute;
+  width: 52.5%;
+}
+
+#reviewBox{
+  padding-top: 25px;
+  margin: 0 auto;
+  width: 75%;
+  height: 100px;
+}
+
+#reviewBox .stars{
+  color: rgba(125,185,232,1);
+  font-size: 1em;
+  height: 30px;
+}
+
+#reviewBox p{
+  font-family: 'Dosis';
+}
+
+.worker{
+  display: inline-block;
+  float: left;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 33.33%;
+}
+
+.worker h2{
+  font-size: 2em;
+}
+
+.worker h3{
+  color: rgba(125,185,232,1);
+}
+
+.worker img{
+  border: 5px solid #85c93f;
+  border-radius: 50%;
+}
+
+.worker p{
+  font-family: 'Dosis';
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 1.3;
+}
+
+#contact{
+  position: relative;
+  background-color: #2d2d2d;
+  padding: 0;
+}
+
+#contactMethodContainer{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contactBlock{
+  display: inline-block;
+  padding: 10px;
+  float: left;
+  width: 47.3%;
+  margin: 0 auto;
+}
+
+.contactBlock h2{
+  font-size: 4em;
+}
+
+.contactBlock h3{
+  font-size: 2em;
+}
+.contactBlock p{
+  line-height: 1.4;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted white;
+}
+
+#contactMethodContainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  margin: 0 auto;
+}
+
+#holla{
+  color: #85c93f;
+}
+
+#contactLinks h3{
+  color: rgba(125,185,232,1);
+}
+
+.contactMethod{
+  font-size: 2em;
+  margin-top: 10px;
+  display: block;
+  overflow: hidden;
+}
+
+.contactMethod img{
+  height: 40px;
+  width: 40px;
+  padding-right: 10px;
+  float: left;
+}
+
+.contactMethod a{
+  color: white;
+  line-height: 1.4;
+}
+
+.contactMethod a:hover{
+  color: rgba(125,185,232,1);
+}
+
+iframe{
+  width: 100%;
+  height: 400px;
+}
+
+
+@media only screen and (max-width: 1000px){
+
+  header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0 auto;
+    bottom: initial;
+    100vw;
+    background: none;
+  }
+
+  #headerName{
+    display: none;
+  }
+
+  #headerNav{
+    display: none;
+  }
+
+  .headerLink{
+    display:table-cell;
+    width: 33%;
+    text-align: center;
+    margin: 0;
+  }
+
+  #sloganContainer{
+    width: 100%;
+    top: 45%;
+  }
+
+  #sloganContainer img{
+    width: 80%;
+  }
+
+  #goingDown{
+    bottom: 75px;
+  }
+
+  .fullSection{
+    padding-bottom: 0;
+  }
+
+  .fullSection h1{
+    font-size: 3em;
+    padding-top: 15px;
+  }
+
+  #aboveTheFold p{
+    font-size: 2.6em;
+    width: 98%;
+  }
+
+  #servicesContainer{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 90%;
+    margin-top: 25px;
+  }
+
+  #serviceMenu{
+    padding-bottom: 25px;
+  }
+
+  #servicesContainer #serviceMenu > h2{
+    display: none;
+  }
+
+  .serviceButton{
+    display: block;
+    margin-top: 10px;
+    background-color: #40428a;
+  }
+
+  .serviceArticle{
+    position: relative;
+    transform: none;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .serviceArticle p{
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  .serviceArticle ul{
+    font-size: 1em;
+  }
+
+  .serviceTitle{
+    display: none;
+  }
+
+  #about #profileBox{
+    width: 90%;
+    margin-top: 0;
+    padding-bottom: 0;
+    font-size: .85em;
+  }
+
+  #history{
+    height: 330px;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  #reviewBox > p{
+    margin: 0 auto;
+  }
+
+  #profileBox .worker{
+    width: 33.3%;
+    padding-bottom: 35px;
+  }
+
+  #profileBox .worker img{
+    width: 70%;
+    border: 2px solid #85c93f;
+  }
+
+  #profileBox .worker img:hover{
+    border: 25px;
+  }
+
+  .bio{
+    position: absolute;
+    padding-top: 25px;
+    font-size: 1.5em;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  #history, #reviewBox{
+    font-size: 1.2em;
+    width: 95%;
+  }
+
+  #about p{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #reviewList li{
+    width: 90%;
+    font-size: .7em;
+  }
+
+  #contactMethodContainer{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    width: 95%;
+    padding-top: 25px;
+    font-size: .8em;
+  }
+
+  .contactBlock{
+    width: 100%;
+    padding: 0;
+
+  }
+
+  #contactLinks{
+    padding-bottom: 15px;
+  }
+
+  iframe{
+    height: 300px;
+  }
+}
+
+
+
+@media all and (orientation:landscape) and (max-width: 767px){
+
+  #sloganContainer img{
+    width: 35%;
+  }
+
+  #goingDown{
+    bottom: 15px;
+    width: 55px;
+    height: 55px;
+  }
+
+  #goingDown p{
+    margin-top: 12px;
+  }
+
+  .workExample{
+    width: 70%;
+    margin: auto;
+  }
+
+  #history{
+    height: 250px;
+  }
+
+  .worker{
+    margin-top: 0;
+    padding-bottom: 35px;
+  }
+
+}
